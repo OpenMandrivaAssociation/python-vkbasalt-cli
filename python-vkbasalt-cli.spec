@@ -39,3 +39,5 @@ write a configuration file.}
 %files
 %doc README.md
 %{_bindir}/%{module_name}
+%{python_sitelib}/vkbasalt/
+%{python_sitelib}/vkbasalt_cli-*.*.*.*.dist-info
