@@ -15,9 +15,6 @@ Source0:        https://files.pythonhosted.org/packages/source/v/pytube/vkbasalt
 
 BuildRequires:  python-devel
 
-
-%package -n python3-%{pypi_name}
-Summary:        %{summary}
 Provides:       vkbasalt-cli = %{EVRD}
 Requires:       vkbasalt
 
