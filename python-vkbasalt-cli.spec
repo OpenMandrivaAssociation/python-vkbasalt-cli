@@ -14,6 +14,7 @@ URL:            https://gitlab.com/TheEvilSkeleton/vkbasalt-cli
 Source0:        https://files.pythonhosted.org/packages/source/v/pytube/vkbasalt-cli-%{version}.tar.gz
 
 BuildRequires:  python-devel
+BuildRequires:  python%{pyver}dist(pip)
 
 Provides:       vkbasalt-cli = %{EVRD}
 Requires:       vkbasalt
