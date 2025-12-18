@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        3.1.1.post2
-Release:        1
+Release:        2
 Summary:        Command line interface for vkBasalt
 BuildArch:      noarch
 
