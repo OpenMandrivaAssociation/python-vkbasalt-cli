@@ -15,6 +15,7 @@ Source0:        https://files.pythonhosted.org/packages/source/v/pytube/vkbasalt
 
 BuildRequires:  python-devel
 BuildRequires:  python%{pyver}dist(pip)
+BuildRequires:  python%{pyver}dist(setuptools)
 
 Provides:       vkbasalt-cli = %{EVRD}
 Requires:       vkbasalt
